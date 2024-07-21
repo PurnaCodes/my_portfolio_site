@@ -36,6 +36,7 @@
   }
   .main_name .main_third {
     font-size: max(5vw, 30px);
+    font-size: clamp(25px, 6vw, 70px) !important;
   }
   .main_left_Downlaod_cv {
     width: 50% !important;
