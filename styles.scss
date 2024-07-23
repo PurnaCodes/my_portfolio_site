@@ -309,7 +309,7 @@ $project_card_bg_color: #21282D;
 }
 
 .project_card {
-    width: 30%;
+    width: 40%;
     height: fit-content;
     background-color: $project_card_bg_color;
     border-radius: 10px;
@@ -323,7 +323,7 @@ $project_card_bg_color: #21282D;
         img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: fill;
             border-radius: 10px;
             border-bottom-left-radius: 0px;
             border-bottom-right-radius: 0px;
